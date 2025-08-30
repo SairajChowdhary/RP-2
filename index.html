@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sairaj's Research Project: MK-N220 Nanoparticles as a Hemostatic Agent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #000000;
+            color: #e0e0e0;
+        }
+        .hero-bg {
+            background-color: #050505;
+            background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 100%), url('https://images.unsplash.com/photo-1621452298933-42a9391d334b?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+        }
+        .section-bg {
+            background-color: #1a1a1a;
+        }
+        .card {
+            background-color: rgba(30, 30, 30, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            border-color: rgba(167, 139, 250, 0.6);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+        }
+        .chart-bar {
+            transition: height 1.5s ease-out;
+            background-color: #8b5cf6;
+        }
+        .chart-bar:hover {
+            background-color: #a78bfa;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-black/60 backdrop-blur-lg border-b border-gray-800">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-white">Sairaj's Research Project</h1>
+            <nav class="hidden md:flex space-x-8 text-sm">
+                <a href="#objectives" class="text-gray-300 hover:text-purple-400 transition">Objectives</a>
+                <a href="#synthesis" class="text-gray-300 hover:text-purple-400 transition">Synthesis</a>
+                <a href="#analysis" class="text-gray-300 hover:text-purple-400 transition">Analysis</a>
+                <a href="#hemostasis" class="text-gray-300 hover:text-purple-400 transition">Hemostasis</a>
+                <a href="#future" class="text-gray-300 hover:text-purple-400 transition">Future Work</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg py-24 md:py-40">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-4 tracking-tight">
+                    Application of MK-N220 Nanoparticles as a Hemostatic Agent
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 mb-2">By: Sairaj Raman Kumar Chowdhary</p>
+                <p class="text-md text-gray-400">Under the supervision of Dr. Shantanu Kumar Behera</p>
+            </div>
+        </section>
+
+        <!-- Objectives Section -->
+        <section id="objectives" class="py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Core Objectives</h2>
+                    <p class="text-gray-400 mt-2 max-w-2xl mx-auto">Guiding the synthesis and characterization of novel nanocomposites for advanced biomedical applications.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="card p-6 rounded-lg text-center">
+                        <h3 class="text-xl font-semibold mb-2 text-purple-400">Synthesis</h3>
+                        <p class="text-gray-300">To synthesize MK-NC composite powder through the Polymer-Derived Ceramics (PDC) route.</p>
+                    </div>
+                    <div class="card p-6 rounded-lg text-center">
+                        <h3 class="text-xl font-semibold mb-2 text-purple-400">Characterization</h3>
+                        <p class="text-gray-300">To perform structural and micro-structural characterization of the as-prepared composite powder.</p>
+                    </div>
+                    <div class="card p-6 rounded-lg text-center">
+                        <h3 class="text-xl font-semibold mb-2 text-purple-400">Nanoparticle Production</h3>
+                        <p class="text-gray-300">To produce MK-C(N220) nanoparticles specifically for bio-molecule applications.</p>
+                    </div>
+                    <div class="card p-6 rounded-lg text-center">
+                        <h3 class="text-xl font-semibold mb-2 text-purple-400">Coagulation</h3>
+                        <p class="text-gray-300">To achieve superior blood clotting time and enhanced coagulation efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Synthesis Section -->
+        <section id="synthesis" class="py-20 md:py-28 section-bg">
+             <div class="container mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">The Synthesis Pathway</h2>
+                        <p class="text-gray-400 mb-6">The creation of MK-NC powder follows a precise, multi-stage process involving pre-ceramic polymers, nano-carbon, and controlled thermal treatments to achieve the desired nanocomposite structure.</p>
+                        <div class="space-y-4 text-sm">
+                           <p><strong class="text-purple-300">Step 1:</strong> Mix MK Powder (PDC) with Ethanol to form a white gluey mass.</p>
+                           <p><strong class="text-purple-300">Step 2:</strong> Separately, mix N220 Nano-Carbon with Ethanol to create a black thixotropic mass.</p>
+                           <p><strong class="text-purple-300">Step 3:</strong> Combine both mixtures to form a black gluey mass (MK+NC).</p>
+                           <p><strong class="text-purple-300">Step 4:</strong> Add Tri-Ethyl Amine (TEA) as a cross-linking agent.</p>
+                           <p><strong class="text-purple-300">Step 5:</strong> Cross-link at 250°C in air for 2 hours.</p>
+                           <p><strong class="text-purple-300">Step 6:</strong> Grind the resulting powder to a fine consistency.</p>
+                           <p><strong class="text-purple-300">Step 7:</strong> Heat the powder at 800°C and 1000°C in air to obtain the final black MK-NC powder.</p>
+                        </div>
+                    </div>
+                    <div class="h-80 md:h-full min-h-[400px]">
+                        <img src="https://images.unsplash.com/photo-1581093593402-99d65a29a334?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AI aesthetic image of a futuristic science lab" class="rounded-lg shadow-2xl object-cover w-full h-full"
+                        onerror="this.onerror=null;this.src='https://placehold.co/600x800/1a1a1a/ffffff?text=Synthesis';">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analysis Section -->
+        <section id="analysis" class="py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Structural & Microstructural Analysis</h2>
+                    <p class="text-gray-400 mt-2 max-w-2xl mx-auto">Investigating the material's properties through advanced characterization techniques.</p>
+                </div>
+                <!-- XRD Analysis -->
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+                    <div class="h-80 md:h-full min-h-[400px]">
+                        <img src="https://images.unsplash.com/photo-1614926852338-821ea3f56365?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AI aesthetic image representing data analysis and graphs" class="rounded-lg shadow-2xl object-cover w-full h-full"
+                        onerror="this.onerror=null;this.src='https://placehold.co/600x400/1a1a1a/ffffff?text=XRD+Analysis';">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-white mb-3">XRD Analysis</h3>
+                        <p class="text-gray-400 mb-4">X-ray diffraction analysis reveals the phase composition of the synthesized materials. For samples NMK8, NMK10, and NMK11, a broad reflection peak around 24.7° indicates the presence of amorphous carbon. In the NMK12 sample, heat-treated at 1200°C, sharp peaks emerge, indicating crystallization. A prominent SiO₂ (Cristobalite) peak appears at ~22°, along with peaks for SiC, demonstrating phase transformation at higher temperatures.</p>
+                    </div>
+                </div>
+                <!-- Microstructure & Raman -->
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="lg:order-2 h-80 md:h-full min-h-[400px]">
+                         <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AI aesthetic image representing spectroscopy" class="rounded-lg shadow-2xl object-cover w-full h-full"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x400/1a1a1a/ffffff?text=Spectroscopy';">
+                    </div>
+                    <div class="lg:order-1">
+                        <h3 class="text-2xl font-semibold text-white mb-3">Microstructure & Raman Spectroscopy</h3>
+                        <p class="text-gray-400 mb-4"><strong class="text-purple-300">FESEM Analysis:</strong> Microstructure analysis via FESEM shows that samples treated up to 1100°C (NMK11) consist of fine, aggregated nanoparticles. The NMK12 sample, however, displays a more crystalline, fragmented morphology due to the higher temperature treatment.</p>
+                        <p class="text-gray-400"><strong class="text-purple-300">Raman Spectroscopy:</strong> The analysis confirmed the presence of distinct carbon phases. The D band (~1355 cm⁻¹) corresponds to disordered carbon, while the G band (~1588 cm⁻¹) represents graphitic carbon, providing insight into the carbon structure within the nanocomposite.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Hemostasis Section -->
+        <section id="hemostasis" class="py-20 md:py-28 section-bg">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Hemostatic Application: Blood Clotting</h2>
+                    <p class="text-gray-400 mt-2 max-w-2xl mx-auto">Evaluating the nanoparticles' effectiveness in accelerating the natural coagulation cascade.</p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                     <div class="h-80 md:h-full min-h-[400px]">
+                         <img src="https://images.unsplash.com/photo-1631562638843-f7e0ed0b581e?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AI aesthetic image of red blood cells" class="rounded-lg shadow-2xl object-cover w-full h-full"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x400/1a1a1a/ffffff?text=Blood+Cells';">
+                     </div>
+                     <div>
+                        <h3 class="text-2xl font-semibold text-white mb-3">Clotting Mechanism</h3>
+                        <p class="text-gray-400">The procedure involves recalcification of blood samples to initiate coagulation. The nanoparticles are then introduced, and the time to form a stable clot is measured. This tests the material's ability to interact with platelets and clotting factors to form a fibrin mesh, effectively stopping blood flow.</p>
+                    </div>
+                </div>
+
+                <div class="card p-8 rounded-lg mt-16">
+                    <h3 class="text-2xl font-semibold text-white text-center mb-8">Blood Clotting Time Results (in seconds)</h3>
+                    <div class="w-full h-80 flex items-end justify-around space-x-4" id="chart-container">
+                        <!-- Chart bars will be injected by script -->
+                    </div>
+                    <div class="flex justify-center mt-6 text-xs text-gray-400 space-x-4 md:space-x-8">
+                        <span>Blood (Control)</span>
+                        <span>NMK8</span>
+                        <span>NMK10</span>
+                        <span>NMK11</span>
+                        <span>NMK12</span>
+                    </div>
+                     <p class="text-center text-gray-400 mt-6 max-w-xl mx-auto">The results clearly demonstrate a significant reduction in clotting time with the application of the nanoparticles. The NMK11 and NMK12 samples, treated at higher temperatures, show the most potent hemostatic effect, reducing clotting time by over 70% compared to the control.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Future Work Section -->
+        <section id="future" class="py-20 md:py-28">
+             <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl md:text-4xl font-bold text-white">Future Directions</h2>
+                 <p class="text-gray-400 mt-2 max-w-2xl mx-auto">Advancing the research through further analysis and testing to validate the material for clinical use.</p>
+                 <div class="mt-12 grid sm:grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto text-left">
+                     <div class="card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-purple-400 mb-2">BET Surface Area Analysis</h3>
+                        <p class="text-gray-300">To quantify the specific surface area, which is crucial for understanding the material's interaction with biological components.</p>
+                    </div>
+                     <div class="card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-purple-400 mb-2">Ex-vivo Studies</h3>
+                        <p class="text-gray-300">To test the material's performance in a more biologically relevant environment, bridging the gap between in-vitro tests and live subjects.</p>
+                    </div>
+                    <div class="card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-purple-400 mb-2">Prothrombin Time (PT) Test</h3>
+                        <p class="text-gray-300">To use an automated blood coagulation analyzer to obtain precise measurements of the clotting cascade initiated by the nanoparticles.</p>
+                    </div>
+                 </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 bg-black">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500 text-sm">
+            <p class="mb-2">Courtesy: Laboratory of New Ceramics (LaNCer) NIT RKL & Biomimetics lab (BM-BT Dept.) NIT RKL</p>
+            <p>&copy; 2025 All rights reserved to (Prof. Dr. Shanthanu Behera.)Lab of New Ceramics</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const chartData = [
+                { label: 'Blood', value: 195 },
+                { label: 'NMK8', value: 113 },
+                { label: 'NMK10', value: 94 },
+                { label: 'NMK11', value: 55 },
+                { label: 'NMK12', value: 56 }
+            ];
+
+            const container = document.getElementById('chart-container');
+            const maxValue = Math.max(...chartData.map(d => d.value));
+
+            chartData.forEach(data => {
+                const barWrapper = document.createElement('div');
+                barWrapper.className = 'flex-1 flex flex-col items-center justify-end h-full';
+
+                const valueText = document.createElement('span');
+                valueText.className = 'text-white font-semibold text-sm mb-2';
+                valueText.textContent = data.value;
+
+                const bar = document.createElement('div');
+                const barHeight = (data.value / maxValue) * 100;
+                bar.className = 'chart-bar w-3/4 md:w-1/2 rounded-t-md';
+                
+                barWrapper.appendChild(valueText);
+                barWrapper.appendChild(bar);
+                container.appendChild(barWrapper);
+
+                const observer = new IntersectionObserver((entries) => {
+                    if (entries[0].isIntersecting) {
+                        setTimeout(() => {
+                           bar.style.height = `${barHeight}%`;
+                        }, 200);
+                        observer.disconnect();
+                    }
+                }, { threshold: 0.5 });
+
+                observer.observe(container);
+            });
+        });
+    </script>
+</body>
+</html>
+
